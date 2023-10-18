@@ -45,7 +45,9 @@ export default siteConfig({
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/appdev': '34980aba84f048788b735f969742bdaa'
+  },
 
   // pageUrlAdditions: {
   //   '/the-social-audio-revolution': 'c4deaf33cc924ad7a5b9f69c6ae04a01'
