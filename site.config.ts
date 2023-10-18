@@ -46,7 +46,9 @@ export default siteConfig({
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
   pageUrlOverrides: {
-    '/appdev': '34980aba84f048788b735f969742bdaa'
+    '/appdev': '34980aba84f048788b735f969742bdaa',
+    '/wolai-api': 'c5c627af5bfd484887ec6a6964b07ae1',
+    '/notion-api': 'b5a553fe04854c80a1586237d1dd447c'
   },
 
   // pageUrlAdditions: {
