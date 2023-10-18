@@ -207,8 +207,11 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   // const isRootPage =
   //   parsePageId(block?.id) === parsePageId(site?.rootNotionPageId)
+  // const isBlogPost =
+  //   block?.type === 'page' && block?.parent_table === 'collection'
   const isBlogPost =
-    block?.type === 'page' && block?.parent_table === 'collection'
+    block?.type === 'page' &&
+    (block?.parent_table === 'block' || block?.parent_table === 'collection')
   const isBioPage =
     parsePageId(block?.id) === parsePageId('8d0062776d0c4afca96eb1ace93a7538')
 
