@@ -55,7 +55,7 @@ export const FooterImpl: React.FC = () => {
           <a
             className={styles.twitter}
             href={`https://twitter.com/${config.twitter}`}
-            title={`Twitter @${config.twitter}`}
+            title={`𝕏 (Twitter) @${config.twitter}`}
             target='_blank'
             rel='noopener noreferrer'
           >
