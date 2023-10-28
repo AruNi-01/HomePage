@@ -93,6 +93,26 @@
   color: #2795e9;
 }
 
+.wechat:hover {
+  color: #07c160;
+}
+.wechat:hover::after {
+  content:'';
+  width:120px;
+  height:120px;
+  border:1px solid white;
+  background: url('https://run-notion.oss-cn-beijing.aliyuncs.com/wx.jpg') top center;
+  background-size:100% auto;
+  position:absolute;
+  top:83%;
+  left:61%;
+  z-index:99999;
+}
+
+.blog:hover {
+  color: #3eaf7c;
+}
+
 .zhihu:hover {
   color: #0066ff;
 }

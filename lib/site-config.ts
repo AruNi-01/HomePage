@@ -10,8 +10,10 @@ export interface SiteConfig {
   description?: string
   language?: string
 
+  wechat?: string
   twitter?: string
   github?: string
+  blog?: string
   linkedin?: string
   newsletter?: string
   youtube?: string

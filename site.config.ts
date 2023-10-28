@@ -17,8 +17,10 @@ export default siteConfig({
   description: 'Personal site of AarynLu',
 
   // social usernames (optional)
+  wechat: 'Lrr_0x3F4',
   twitter: 'AruNi_Lu',
   github: 'AruNi-01',
+  blog: 'https://aruni.me',
   // linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
