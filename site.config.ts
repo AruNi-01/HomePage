@@ -20,7 +20,7 @@ export default siteConfig({
   wechat: 'Lrr_0x3F4',
   twitter: 'AruNi_Lu',
   github: 'AruNi-01',
-  blog: 'https://code.0x3f4.run',
+  // blog: 'https://code.0x3f4.run',
   // linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`

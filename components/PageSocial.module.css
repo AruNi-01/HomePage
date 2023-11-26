@@ -80,10 +80,10 @@
 }
 
 .twitter .actionBgPane {
-  background: #2795e9;
+  background: #000000;
 }
 .twitter:hover {
-  border-color: #2795e9;
+  border-color: #000000;
 }
 
 .blog .actionBgPane {
