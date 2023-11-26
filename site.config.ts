@@ -27,7 +27,7 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'https://run-notion.oss-cn-beijing.aliyuncs.com/header.jpg',
+  defaultPageIcon: 'https://run-notion.oss-cn-beijing.aliyuncs.com/header.png',
   defaultPageCover: 'null',
   defaultPageCoverPosition: 0.5,
 
@@ -48,9 +48,7 @@ export default siteConfig({
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
   pageUrlOverrides: {
-    '/appdev': '34980aba84f048788b735f969742bdaa',
-    '/wolai-api': 'c5c627af5bfd484887ec6a6964b07ae1',
-    '/notion-api': 'b5a553fe04854c80a1586237d1dd447c'
+  //  '/appdev': '34980aba84f048788b735f969742bdaa',
   },
 
   // pageUrlAdditions: {
@@ -61,13 +59,13 @@ export default siteConfig({
   // important pages
   navigationStyle: 'custom',
   navigationLinks: [
-    {
-      title: 'About',
-      pageId: '86806cc6d33a455a898320503a778248'
-    },
-    {
-      title: 'Contact',
-      pageId: '6815b32c4f5a4e34a235930f0b0cf0ba'
-    }
+    // {
+    //   title: 'About',
+    //   pageId: '86806cc6d33a455a898320503a778248'
+    // },
+    // {
+    //   title: 'Contact',
+    //   pageId: '6815b32c4f5a4e34a235930f0b0cf0ba'
+    // }
   ]
 })
