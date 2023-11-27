@@ -28,7 +28,7 @@ export default siteConfig({
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
   defaultPageIcon: 'https://run-notion.oss-cn-beijing.aliyuncs.com/header.png',
-  defaultPageCover: 'null',
+  defaultPageCover: 'https://run-notion.oss-cn-beijing.aliyuncs.com/default_notion_page_cover.jpg',
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
