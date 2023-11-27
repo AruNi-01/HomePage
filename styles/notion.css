@@ -106,7 +106,7 @@
 .notion-collection-card-cover {
   border-bottom: 0 none;
   transition: filter 700ms linear;
-  filter: blur(5px);
+  filter: blur(4px);
 }
 
 .notion-collection-card:hover .notion-collection-card-cover {
