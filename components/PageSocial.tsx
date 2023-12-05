@@ -16,7 +16,7 @@ interface SocialLink {
 const socialLinks: SocialLink[] = [
   config.wechat && {
     name: 'wechat',
-    href: `https://aruni.me/wx.jpg`,
+    href: `https://code.0x3f4.run/wx.jpg`,
     title: `Wechat @${config.wechat}`,
     icon: (
       <svg viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">

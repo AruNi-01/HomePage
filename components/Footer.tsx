@@ -58,7 +58,7 @@ export const FooterImpl: React.FC = () => {
         {/* {config.wechat && (
           <a
             className={styles.wechat}
-            href={`https://aruni.me/wx.jpg`}
+            href={`https://code.0x3f4.run/wx.jpg`}
             title={`Wechat @${config.wechat}`}
             target='_blank'
             rel='noopener noreferrer'
